@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(assets/road-picture-in-pixels.png);
+}
+
+.stopwatch {
+    text-align: center;
+    color: aliceblue;
+}
+
+.display {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    font-size: 1em;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-color: yellow;
+    border-radius: 50%;
+}
+
+#startBtn{
+    background-color: green;
+}
+
+#stopBtn{
+    background-color: red;
+}
+
+#resetBtn{
+    background-color: orange;
+}
